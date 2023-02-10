@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44" started-at="2023-02-10T02:08:11Z" finished-at="2023-02-10T02:08:11Z">
+    <groups>
+      <group name="functional">
+        <method signature="Group1Demo.getEnvValue()[pri:2, instance:misc.Group1Demo@3b07a0d6]" name="getEnvValue" class="misc.Group1Demo"/>
+        <method signature="Group1Demo.getPropValue()[pri:3, instance:misc.Group1Demo@3b07a0d6]" name="getPropValue" class="misc.Group1Demo"/>
+        <method signature="Group1Demo.getPropValue2()[pri:5, instance:misc.Group1Demo@3b07a0d6]" name="getPropValue2" class="misc.Group1Demo"/>
+        <method signature="Group2Demo.getEnvValue()[pri:2, instance:misc.Group2Demo@3d121db3]" name="getEnvValue" class="misc.Group2Demo"/>
+        <method signature="Group2Demo.getPropValue()[pri:3, instance:misc.Group2Demo@3d121db3]" name="getPropValue" class="misc.Group2Demo"/>
+        <method signature="Group2Demo.getPropValue2()[pri:5, instance:misc.Group2Demo@3d121db3]" name="getPropValue2" class="misc.Group2Demo"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="Group1Demo.getEnvValue()[pri:2, instance:misc.Group1Demo@3b07a0d6]" name="getEnvValue" class="misc.Group1Demo"/>
+        <method signature="Group1Demo.getPropValue()[pri:3, instance:misc.Group1Demo@3b07a0d6]" name="getPropValue" class="misc.Group1Demo"/>
+        <method signature="Group2Demo.getEnvValue()[pri:2, instance:misc.Group2Demo@3d121db3]" name="getEnvValue" class="misc.Group2Demo"/>
+        <method signature="Group2Demo.getPropValue()[pri:3, instance:misc.Group2Demo@3d121db3]" name="getPropValue" class="misc.Group2Demo"/>
+      </group> <!-- regression -->
+      <group name="xyz">
+        <method signature="Group2Demo.getPropValue()[pri:3, instance:misc.Group2Demo@3d121db3]" name="getPropValue" class="misc.Group2Demo"/>
+      </group> <!-- xyz -->
+      <group name="sanity">
+        <method signature="Group1Demo.getParamValue2()[pri:4, instance:misc.Group1Demo@3b07a0d6]" name="getParamValue2" class="misc.Group1Demo"/>
+        <method signature="Group1Demo.getPropValue2()[pri:5, instance:misc.Group1Demo@3b07a0d6]" name="getPropValue2" class="misc.Group1Demo"/>
+        <method signature="Group2Demo.getParamValue2()[pri:4, instance:misc.Group2Demo@3d121db3]" name="getParamValue2" class="misc.Group2Demo"/>
+        <method signature="Group2Demo.getPropValue2()[pri:5, instance:misc.Group2Demo@3d121db3]" name="getPropValue2" class="misc.Group2Demo"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="44" started-at="2023-02-10T02:08:11Z" finished-at="2023-02-10T02:08:11Z">
+      <class name="misc.Group2Demo">
+        <test-method status="PASS" signature="getEnvValue()[pri:2, instance:misc.Group2Demo@3d121db3]" name="getEnvValue" duration-ms="10" started-at="2023-02-10T02:08:11Z" description="Group2 class test is to retrieve the env values" finished-at="2023-02-10T02:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEnvValue -->
+      </class> <!-- misc.Group2Demo -->
+      <class name="misc.Group1Demo">
+        <test-method status="PASS" signature="getEnvValue()[pri:2, instance:misc.Group1Demo@3b07a0d6]" name="getEnvValue" duration-ms="3" started-at="2023-02-10T02:08:11Z" description="Group1 class test is to retrieve the env values" finished-at="2023-02-10T02:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEnvValue -->
+      </class> <!-- misc.Group1Demo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="43" started-at="2023-02-10T02:08:11Z" finished-at="2023-02-10T02:08:11Z">
+    <groups>
+      <group name="functional">
+        <method signature="Group1Demo.getEnvValue()[pri:2, instance:misc.Group1Demo@54c562f7]" name="getEnvValue" class="misc.Group1Demo"/>
+        <method signature="Group1Demo.getPropValue()[pri:3, instance:misc.Group1Demo@54c562f7]" name="getPropValue" class="misc.Group1Demo"/>
+        <method signature="Group1Demo.getPropValue2()[pri:5, instance:misc.Group1Demo@54c562f7]" name="getPropValue2" class="misc.Group1Demo"/>
+        <method signature="Group2Demo.getEnvValue()[pri:2, instance:misc.Group2Demo@63a65a25]" name="getEnvValue" class="misc.Group2Demo"/>
+        <method signature="Group2Demo.getPropValue()[pri:3, instance:misc.Group2Demo@63a65a25]" name="getPropValue" class="misc.Group2Demo"/>
+        <method signature="Group2Demo.getPropValue2()[pri:5, instance:misc.Group2Demo@63a65a25]" name="getPropValue2" class="misc.Group2Demo"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="Group1Demo.getEnvValue()[pri:2, instance:misc.Group1Demo@54c562f7]" name="getEnvValue" class="misc.Group1Demo"/>
+        <method signature="Group1Demo.getPropValue()[pri:3, instance:misc.Group1Demo@54c562f7]" name="getPropValue" class="misc.Group1Demo"/>
+        <method signature="Group2Demo.getEnvValue()[pri:2, instance:misc.Group2Demo@63a65a25]" name="getEnvValue" class="misc.Group2Demo"/>
+        <method signature="Group2Demo.getPropValue()[pri:3, instance:misc.Group2Demo@63a65a25]" name="getPropValue" class="misc.Group2Demo"/>
+      </group> <!-- regression -->
+      <group name="xyz">
+        <method signature="Group2Demo.getPropValue()[pri:3, instance:misc.Group2Demo@63a65a25]" name="getPropValue" class="misc.Group2Demo"/>
+      </group> <!-- xyz -->
+      <group name="sanity">
+        <method signature="Group1Demo.getParamValue2()[pri:4, instance:misc.Group1Demo@54c562f7]" name="getParamValue2" class="misc.Group1Demo"/>
+        <method signature="Group1Demo.getPropValue2()[pri:5, instance:misc.Group1Demo@54c562f7]" name="getPropValue2" class="misc.Group1Demo"/>
+        <method signature="Group2Demo.getParamValue2()[pri:4, instance:misc.Group2Demo@63a65a25]" name="getParamValue2" class="misc.Group2Demo"/>
+        <method signature="Group2Demo.getPropValue2()[pri:5, instance:misc.Group2Demo@63a65a25]" name="getPropValue2" class="misc.Group2Demo"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="43" started-at="2023-02-10T02:08:11Z" finished-at="2023-02-10T02:08:11Z">
+      <class name="misc.Group2Demo">
+        <test-method status="PASS" signature="getEnvValue()[pri:2, instance:misc.Group2Demo@63a65a25]" name="getEnvValue" duration-ms="10" started-at="2023-02-10T02:08:11Z" description="Group2 class test is to retrieve the env values" finished-at="2023-02-10T02:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEnvValue -->
+      </class> <!-- misc.Group2Demo -->
+      <class name="misc.Group1Demo">
+        <test-method status="PASS" signature="getEnvValue()[pri:2, instance:misc.Group1Demo@54c562f7]" name="getEnvValue" duration-ms="2" started-at="2023-02-10T02:08:11Z" description="Group1 class test is to retrieve the env values" finished-at="2023-02-10T02:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEnvValue -->
+      </class> <!-- misc.Group1Demo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+  <suite name="FullAutomationSuite" duration-ms="0" started-at="2023-02-10T02:08:11Z" finished-at="2023-02-10T02:08:11Z">
+    <groups>
+    </groups>
+  </suite> <!-- FullAutomationSuite -->
+</testng-results>
